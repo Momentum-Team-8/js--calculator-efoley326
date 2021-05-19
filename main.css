@@ -1,12 +1,11 @@
 .calculator-body {
     width: 80px;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
-
-
-
-
 
 .buttons {
     width: 20px;
