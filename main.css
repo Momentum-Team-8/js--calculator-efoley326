@@ -1,27 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 .calculator-body {
-    width: 80px;
-    height: 100px;
+    width: 600px;
+    height: 700px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row
     flex-wrap: wrap;
 
 }
 
 .buttons {
-    width: 20px;
-    height: 20px;
+    width: 200px;
+    height: 233px;
     background-color: green;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px;
-    border-style: solid;
+    border: 1px; solid; white;
+    font-size: 100px;
+
     }
 
 .display-window {
-    width: 60px;
-    height: 20px;
+    width: 400px;
+    height: 233px;
     padding: 5px;
     background-color: green;
     color: white;
